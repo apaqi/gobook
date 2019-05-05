@@ -6,4 +6,16 @@ chapter4/channel
 chapter4/goroutine
 chapter4/goroutine2
 chapter4/thread
-
+**/target
+**/target/**
+.classpath
+.project
+**/.classpath
+**/.project
+**/.settings
+**/.settings/**
+**/.idea
+**/.idea/**
+**/*.iml
+*.iml
+*.log
