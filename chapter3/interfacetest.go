@@ -50,7 +50,7 @@ var file4 IClose = new(File)
 
 //接口查询
 func main() {
-	if file2, ok := file1.(*File); ok {
+	/*if file2, ok := file1.(*File); ok {
 
-	}
+	}*/
 }
