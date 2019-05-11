@@ -58,10 +58,18 @@ func main() {
 	2.ra := &Rect{}
 	3.ra := &Rect{0,0,100,200}
 	4.ra := &Rect{width:100,height:200}
+
+	在 Struct 中，在一个类型 T 上直接调用 receiver 是 *T 的 method 是合法的，
+	只要 T 是以 variable 的形势存在
+	所以一下方式是不合法的：
+	rc := Rect{width: 100, height: 200}.Area()
+	fmt.Println("Rect area=", rc)
 	 */
 	ra := &Rect{width: 100, height: 200}
 	fmt.Println("Rect area=", ra.Area())
 	//采用构造函数方式初始化
 	rb := NewRect(0,0,10,30)
 	fmt.Println("Rect area=", rb.Area())
+
+
 }

@@ -17,6 +17,7 @@ func main() {
 	}
 	for _, ch := range chs {
 		//从channel中读取值： value := <-ch
-		<-ch
+		value :=<-ch
+		fmt.Println(value)
 	}
 }
