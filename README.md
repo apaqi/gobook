@@ -1,5 +1,5 @@
 # 介绍
-
+#https://studygolang.com/articles/7708
 这里是《GO语言编程》一书中示例源代码。
 
 作者：许式伟 吕桂华
